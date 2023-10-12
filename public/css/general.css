@@ -1,0 +1,21 @@
+/* body {
+    background-color: blue;
+} */
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+:root {
+    --tipografiaTitulos : 'Raleway', sans-serif;
+    --tipografiaEmilia : 'Work Sans', sans-serif;
+    --tipografiaGeneral : 'Open Sans', sans-serif; 
+}
+
+body {
+    font-family: var(--tipografiaGeneral);
+}
