@@ -1,0 +1,54 @@
+.header--horizontal {
+    margin-right: 7px;
+}
+
+.header__nav__menu a{
+    text-transform: uppercase;
+    line-height: 30px;
+    color: gray;
+}
+
+.header__nav--redes a {
+    color: black;
+    margin-left: 5px;
+}
+
+.header--vertical {
+    margin-left: 20px;
+}
+
+/* .header--horizontal {
+    
+} */
+
+.header__nav__ul--horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__nav__ul--horizontal li::before {
+    content: " |";
+}
+
+.header__nav__ul__li--4::after {
+    content: "|";
+}
+
+.header__nav--redes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__nav__ul--horizontal a {
+    color: gray;
+    text-transform: uppercase;
+    margin: 4px;        
+}
+
+.header__nav__ul--horizontal {
+    height: 62px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 34px;
+}

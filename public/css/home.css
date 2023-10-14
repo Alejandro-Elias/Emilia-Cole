@@ -16,6 +16,9 @@ body.home {
     letter-spacing: 3px;
     font-weight: 300;
     font-size: 40px;
+    margin-left: 20px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .home__main h1 {
@@ -24,3 +27,4 @@ body.home {
     font-size: 65px;
     background-color: rgba(255, 255, 255, 0.5);
 }
+

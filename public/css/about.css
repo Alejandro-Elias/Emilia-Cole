@@ -1,0 +1,33 @@
+body.about {
+    margin: 0px;
+    background-image: url("/img/emilia-about.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 75%;
+}
+
+.main__h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-left: 8px;   
+    font-family: var(--tipografiaTitulos);
+}
+
+.main__section {
+    color: rgb(136, 179, 168);
+    margin-left: 44px;
+    margin-bottom: 50px;
+}
+
+.main__section__h3 {
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: -2px;
+    line-height: 26px;
+    width: 200;
+}
+
+.main__section p {
+    font-size: 12px;
+    font-weight: 600;
+}

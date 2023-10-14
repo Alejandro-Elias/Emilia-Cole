@@ -1,6 +1,6 @@
-/* body {
-    background-color: blue;
-} */
+* {
+    box-sizing: border-box;    
+}
 
 ul {
     padding: 0;
@@ -19,3 +19,16 @@ ul li {
 body {
     font-family: var(--tipografiaGeneral);
 }
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;   
+}
+
