@@ -8,9 +8,7 @@ body.about {
 
 .main__h1 {
     font-size: 65px;
-    text-transform: uppercase;
     margin-left: 8px;   
-    font-family: var(--tipografiaTitulos);
 }
 
 .main__section {

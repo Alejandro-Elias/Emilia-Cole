@@ -20,6 +20,12 @@ body {
     font-family: var(--tipografiaGeneral);
 }
 
+h1 {
+    font-family: var(--tipografiaTitulos);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 ul li {
     list-style-type: none;
 }
