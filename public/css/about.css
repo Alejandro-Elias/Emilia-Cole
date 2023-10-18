@@ -11,10 +11,17 @@ body.about {
     margin-left: 8px;   
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
 .main__section {
     color: rgb(136, 179, 168);
     margin-left: 44px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .main__section__h3 {
