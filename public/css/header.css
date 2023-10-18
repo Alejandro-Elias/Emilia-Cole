@@ -52,3 +52,13 @@
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 34px;
 } 
+
+#header--music--background {
+    background-image: url(/img/emilia-music-top.jpg);
+    height: 170px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    margin: -8px;
+    padding: 8px 6px 0px 6px;
+
+}

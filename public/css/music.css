@@ -1,3 +1,33 @@
-/* body.music {
-    background-color: greenyellow;
-} */
+a {
+    color: rgb(57, 57, 57); 
+}
+
+.main__nav__ul {
+    font-size: 14px;
+    margin-left: 40px;
+    color: rgb(57, 57, 57);    
+    margin-top: -8px;
+}
+.main__section__h3 {
+    font-family: var(--tipografiaTitulos);
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.main__section__ol {
+    font-size: 14px;
+}
+
+.main__section__ol li {
+    list-style-type: decimal-leading-zero;
+    margin: 14px 0px;
+}
+
+.main__section__div {
+    margin-top: 30px;
+}
+
+.main__section__div p {
+    font-size: 14px;
+    margin-top: -15px;
+}

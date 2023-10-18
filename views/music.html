@@ -8,16 +8,16 @@
     <title>Document</title>
 </head>
 <body class="music">
-    <header>
-        <nav>
-            <ul>
+    <header id="header--music--background" class="header--horizontal">
+        <nav class="header__nav--horizontal">
+            <ul class="header__nav__ul--horizontal">
                 <li><a href="/">home</a></li>
                 <li><a href="/about">about</a></li>
                 <li><a href="/music">music</a></li>
-                <li><a href="/contact">contact</a></li>
+                <li class="header__nav__ul__li--4"><a href="/contact">contact</a></li>
             </ul>
         </nav>
-        <nav>
+        <nav class="header__nav--redes">
             <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
             <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
             <a href="https://spotify.com/"><i class="fa-brands fa-spotify"></i></a>
@@ -28,11 +28,11 @@
     </header>
 
     <main>
-        <h1>music</h1>
-        <h5>Direct link</h5>
+        <h1 class="main__h1">music //</h1>
+        <h5>Direct links</h5>
 
         <nav>
-            <ul>
+            <ul class="main__nav__ul">
                 <li>Albun</li>
                 <li><a href="#organic">Albun :Organic Love</a></li>
                 <li><a href="#street">Albun :street light</a></li>
@@ -40,22 +40,22 @@
         </nav>
 
         <section id="albun">
-            <h4>Albun <br> twist in my reality</h4>
+            <h3  class="main__section__h3">Albun <br> twist in my reality</h3>
             <img src="/img/emilia-play-list.png" alt="emilia play list" width="640">
-            <ol>
-                <li><i class="fa-solid fa-play"></i>Organic Love | 02:40</li>
-                <li><i class="fa-solid fa-play"></i>Twist In My Reality | 02:10</li>
-                <li><i class="fa-solid fa-play"></i>Street Light | 03:28/li>
-                <li><i class="fa-solid fa-play"></i>Love Don´t Live Here Anymore (Cover) | 03:49</li>
+            <ol class="main__section__ol">
+                <li><i class="fa-solid fa-play"></i> Organic Love | 02:40</li>
+                <li><i class="fa-solid fa-play"></i> Twist In My Reality | 02:10</li>
+                <li><i class="fa-solid fa-play"></i> Street Light | 03:28</li>
+                <li><i class="fa-solid fa-play"></i> Love Don´t Live Here Anymore (Cover) | 03:49</li>
             </ol>
 
             <a href="#">go top</a>
         </section>
 
         <section id="organic">
-            <h3>video <br> organic love</h3>
+            <h3 class="main__section__h3">video <br> organic love</h3>
             <iframe src="https://player.vimeo.com/video/135166028?h=fdb0646ae5" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <div>
+            <div class="main__section__div">
                 <p>Directed by VINCE MALC & EMILIA COLE</p>
                 <p>Edited and Filmed by NICOLAS TROY</p>
                 <p>Produced by NIKI HEART,</p>
@@ -65,9 +65,9 @@
         </section>
 
         <section id="street">
-            <h3>video <br>street light</h3>
+            <h3 class="main__section__h3">video <br>street light</h3>
             <iframe src="https://player.vimeo.com/video/134861419?h=24e3183108" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            <div>
+            <div class="main__section__div">
                 <p>Directed by VINCE MALC & EMILIA COLE</p>
                 <p>Edited and Filmed by NICOLAS TROY</p>
                 <p>Produced by NIKI HEART,</p>
@@ -75,9 +75,6 @@
             </div>
             <a href="#">go top</a>
         </section>
-       
-
-    </main>
-    
+    </main>    
 </body>
 </html>
